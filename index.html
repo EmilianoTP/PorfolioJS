@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="style.css" rel="stylesheet">
+      <title>Challenge #1 - Encriptador de Texto</title>
+  </head>
+  <header>
+      <img src= "src/Logo.png" alt="Logo.png"> 
+  </header>
+  <body>
+
+    <div class="Result">
+      <p class="BoxResult"></p>
+
+      <div class="TextResult">
+        <img id="imgResult" src="src/Muñeco.png" alt="resultLogo.png">
+        <p id="txtInfo1"><strong>Ningún mensaje fue encontrado</strong></p>
+        <p id="txtInfo2">Ingrese el texto que desees encriptar o desencriptar</p>
+      </div>
+      <input class="BtnCopiar" type="button" value="copiar">
+
+    </div>
+
+    <main>
+      <form>
+        <div class= "Text-Box">
+          <textarea id="InputText" class="inputText" placeholder="Introduzca el texto"></textarea>
+        </div>
+        
+        <div class="ButtonBox">
+          <div class="Buttons">
+            <p>&#9888 Solo letras minúsculas y sin acentos</p>
+            <div class="buttonsPos">
+              <input class="Button1" type="button" value="Encriptar">
+              <input class="Button2" type="button" value="Desencriptar">
+            </div>
+          </div>
+        </div>
+      </form>
+      
+    </main>
+    
+    <script src="script.js"></script>
+
+  </body>
+  <footer>
+    <p id="textFooter"><small>Challenge Desarrollado por: Emiliano Tuyu</small></p>
+  </footer>
+</html>

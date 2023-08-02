@@ -1,0 +1,127 @@
+body{
+    background: #f3f5fc;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+header{
+    width: 70%;
+    float: left;    
+}
+
+main{
+    width: 65%;
+}
+
+.Result{
+    width: 30%;
+    height: 90vh;
+    margin-right: 3%;
+    float: right;
+    position: relative;
+}
+
+.BoxResult{
+    position: absolute;
+    padding:10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: white;
+}
+
+.TextResult{
+    position: absolute;
+    width: 60%;
+    margin: 65% 27%;
+    color:#0A3871 ;
+}
+
+#imgResult{
+    width: 80%;
+}
+
+#txtInfo1{
+    
+    text-align: center;
+}
+
+#txtInfo2{
+    text-align: center;
+}
+
+.BtnCopiar{
+    position: absolute;
+    width: 80%;
+    padding: 4%;
+    border-radius: 15px;
+    margin: 140% 18%;
+}
+
+.Text-Box{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+}
+
+#InputText{
+    width: 100%;
+    margin: 4% 8%;
+    background-color: #f3f5fc;
+    color: #0A3871;
+    font-size: 200%;
+    border: none;
+    cursor: pointer;
+}
+
+#InputText::placeholder{
+    color: #0A3871;
+}
+
+.ButtonBox{
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 5% 0;
+}
+
+.Buttons{
+    width: auto;
+    margin: 0 5% 15px 25%;
+}
+
+.buttonsPos{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.Button1, .Button2{
+    color: #FFFFFF;
+    background-color: #0A3871;
+    border-radius: 15px;
+    margin: 0 40px;
+    padding: 2.5% 10%;
+}
+
+.Button2{
+    
+    color: #000000;
+    background-color:#D8DFE8;
+    /*border-radius: 15%;
+    margin: 0 10px;
+    padding: 2.5% 10%;*/
+}
+
+footer{
+    background-color: lightgray;
+}
+
+#textFooter{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.ocult{
+    display: none;
+}
